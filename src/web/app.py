@@ -8,7 +8,8 @@ from langchain import agents
 from langchain_core.prompts import PromptTemplate
 from langchain_core.tools import tool
 from langchain_openai import AzureChatOpenAI
-from langchain.agents import AgentExecutor, create_react_agent, load_tools
+from langchain.agents import AgentExecutor, create_react_agent
+from langchain_community.agent_toolkits.load_tools import load_tools
 from langchain_community.callbacks.streamlit import (
     StreamlitCallbackHandler,
 )

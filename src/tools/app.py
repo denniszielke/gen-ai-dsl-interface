@@ -79,8 +79,8 @@ def get_current_time(location: str) -> str:
         print("Error: ", e)
         return "Sorry, I couldn't find the timezone for that location."
     
-
-#tools = [get_current_time]
+tools = []
+tools = [get_current_time]
 tools = [get_current_location, get_current_time]
 
 commandprompt = '''
